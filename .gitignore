@@ -1,0 +1,21 @@
+# Build artifacts
+/lifegame
+/LifeGame
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace / vendor
+go.work
+go.work.sum
+vendor/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
